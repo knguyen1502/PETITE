@@ -92,3 +92,5 @@ For each mass, the second layer of keys are the dark shower processes:
 Inside those, everything follows the same structure as for standard showers.
 
 Cross sections for dark showers can be found in `dark_xsecs.pkl`.  Just as for `sm_maps` relates to `dark_maps`, `sm_xsecs` relates to `dark_xsecs`, there is one additional initial layer of keys labelling the dark particle mass.
+
+Change 101

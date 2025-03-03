@@ -24,6 +24,7 @@ default_ids = {"PID":11, "ID":1, "parent_PID":22,
 #eta-prime (331) decays to gamma gamma with Br = 0.02307
 #                       to pi0 + pi0 + eta with Br = 0.224
 #                       to three pi0 with Br = 0.00250
+#omega (223) decays     to gamma + pi0 with Br = 0.0828
 meson_decay_dict = {111: [[0.98823, [22,22]]],
                     221: [[0.3936, [22,22]], [0.3257, [111, 111, 111]]],
                     331: [[0.02307, [22,22]], [0.224, [111, 111, 221]], [0.00250, [111, 111, 111]]],
@@ -344,3 +345,4 @@ class Particle:
         
         self.set_ended(True)
         return new_particles        
+        
